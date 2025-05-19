@@ -2,10 +2,10 @@ module github.com/reviewdog/reviewdog
 
 go 1.23.0
 
-toolchain go1.24.2
+toolchain go1.24.3
 
 require (
-	cloud.google.com/go/compute/metadata v0.6.0
+	cloud.google.com/go/compute/metadata v0.7.0
 	cloud.google.com/go/datastore v1.20.0
 	code.gitea.io/sdk/gitea v0.21.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.12
@@ -15,7 +15,7 @@ require (
 	github.com/haya14busa/go-actions-toolkit v0.0.0-20200105081403-ca0307860f01
 	github.com/haya14busa/go-sarif v0.0.0-20240630170108-a3ba8d79599f
 	github.com/haya14busa/secretbox v0.0.0-20180525171038-07c7ecf409f5
-	github.com/justinas/nosurf v1.1.1
+	github.com/justinas/nosurf v1.2.0
 	github.com/kylelemons/godebug v1.1.0
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/rakyll/statik v0.1.7
@@ -24,11 +24,11 @@ require (
 	github.com/reviewdog/go-bitbucket v0.0.0-20201024094602-708c3f6a7de0
 	github.com/stretchr/testify v1.10.0
 	github.com/vvakame/sdlog v1.2.0
-	gitlab.com/gitlab-org/api/client-go v0.128.0
+	gitlab.com/gitlab-org/api/client-go v0.129.0
 	go.opencensus.io v0.24.0
-	golang.org/x/build v0.0.0-20250421191922-3619c213cff3
-	golang.org/x/oauth2 v0.29.0
-	golang.org/x/sync v0.13.0
+	golang.org/x/build v0.0.0-20250512204353-bd68c458b160
+	golang.org/x/oauth2 v0.30.0
+	golang.org/x/sync v0.14.0
 	google.golang.org/protobuf v1.36.6
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -67,10 +67,10 @@ require (
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
-	golang.org/x/crypto v0.37.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/sys v0.32.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
+	golang.org/x/crypto v0.38.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	google.golang.org/api v0.203.0 // indirect
 	google.golang.org/genproto v0.0.0-20241015192408-796eee8c2d53 // indirect
