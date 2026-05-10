@@ -5,7 +5,7 @@ go 1.26
 require (
 	cloud.google.com/go/compute/metadata v0.9.0
 	cloud.google.com/go/datastore v1.23.0
-	code.gitea.io/sdk/gitea v0.24.1
+	code.gitea.io/sdk/gitea v0.25.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.12
 	github.com/bradleyfalzon/ghinstallation/v2 v2.18.0
 	github.com/google/go-cmp v0.7.0
@@ -56,7 +56,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.21.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.8 // indirect
-	github.com/hashicorp/go-version v1.8.0 // indirect
+	github.com/hashicorp/go-version v1.9.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/prometheus v2.5.0+incompatible // indirect
