@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### :bug: Fixes
 
+- [#2586](https://github.com/reviewdog/reviewdog/pull/2586) Honor SARIF `result.suppressions` in SARIF parser — suppressed results (per SARIF 2.1.0 §3.27.23 / §3.35) no longer emit diagnostics
 - [#2481](https://github.com/reviewdog/reviewdog/pull/2481) Use CWD instead of git root in SARIF parser to prevent path doubling
 
 ### :rotating_light: Breaking changes
